@@ -8,4 +8,7 @@
     <color name="colorPrimary2">#ECECEC</color>
     <color name="fondo">#333333</color>
 
+    //Menu inicio
+    <color name="negro">#000000</color>
+
 </resources>

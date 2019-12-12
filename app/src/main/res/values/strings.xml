@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ChifaChauFanApplication</string>
+    <string name="menu">MENU INICIO</string>
+    <string name="estadoReserva">Estado Reserva</string>
 </resources>
