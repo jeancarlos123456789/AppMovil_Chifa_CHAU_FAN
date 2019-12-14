@@ -171,9 +171,7 @@
 
         </LinearLayout>
 
-<!--        //================================-->
-
-
+<!--      FLECHA IZQUIERDA  //================================-->
 
         <LinearLayout
             android:layout_width="wrap_content"
