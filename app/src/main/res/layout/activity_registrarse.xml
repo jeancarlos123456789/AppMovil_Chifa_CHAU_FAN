@@ -28,12 +28,14 @@
         </TextView>
 
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/logopresentacion">
+            android:src="@drawable/logopresentacion"
+            app:civ_border_width="0dp"/>
 
-        </ImageView>
 
 
         <TextView
@@ -46,7 +48,6 @@
 
 
         <EditText
-            android:id="@+id/txtNombre"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
@@ -63,7 +64,6 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtApellido"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
@@ -80,7 +80,6 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtTelefono"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
@@ -97,12 +96,44 @@
         </TextView>
 
         <EditText
-            android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp">
         </EditText>
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contrasenia"
+        android:textColor="@color/colorPrimary2"
+        android:layout_marginLeft="40dp">
+    </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+        </EditText>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repitacontrasenia"
+            android:textColor="@color/colorPrimary2"
+            android:layout_marginLeft="40dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+        </EditText>
+
 
         <LinearLayout
             android:weightSum="3"
