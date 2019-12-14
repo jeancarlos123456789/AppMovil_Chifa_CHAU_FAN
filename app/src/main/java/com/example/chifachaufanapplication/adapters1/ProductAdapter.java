@@ -1,4 +1,4 @@
-package com.example.chifachaufanapplication.adapters;
+package com.example.chifachaufanapplication.adapters1;
 
 import android.content.Context;
 import android.view.LayoutInflater;

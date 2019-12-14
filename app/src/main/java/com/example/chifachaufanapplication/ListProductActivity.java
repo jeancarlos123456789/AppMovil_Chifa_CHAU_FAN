@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.example.chifachaufanapplication.Models.Products;
-import com.example.chifachaufanapplication.adapters.ProductAdapter;
+import com.example.chifachaufanapplication.adapters1.ProductAdapter;
 
 public class ListProductActivity extends AppCompatActivity {
    ListView productList;
