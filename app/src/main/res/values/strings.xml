@@ -4,4 +4,5 @@
     <string name="estadoReserva">Estado Reserva</string>
     <string name="contrasenia">Contraseña </string>
     <string name="repitacontrasenia">Repita Contraseña</string>
+    <string name="reportefechas">Reportes por Fechas</string>
 </resources>
