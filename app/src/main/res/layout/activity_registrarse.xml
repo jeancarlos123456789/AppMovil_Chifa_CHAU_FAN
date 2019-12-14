@@ -43,8 +43,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nombres"
-            android:textColor="@color/colorPrimary2"
-            android:layout_marginLeft="40dp">
+            android:textColor="@color/negro"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="10sp">
         </TextView>
 
 
@@ -52,7 +54,9 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:background="@drawable/stylo_border"
+            android:textSize="12sp">
         </EditText>
 
 
@@ -60,15 +64,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apellidos"
-            android:textColor="@color/colorPrimary2"
-            android:layout_marginLeft="40dp">
+            android:textColor="@color/negro"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="10sp">
         </TextView>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:background="@drawable/stylo_border"
+            android:textSize="12sp">
         </EditText>
 
 
@@ -76,15 +84,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Telefono"
-            android:textColor="@color/colorPrimary2"
-            android:layout_marginLeft="40dp">
+            android:textColor="@color/negro"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="10sp">
         </TextView>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:background="@drawable/stylo_border"
+            android:textSize="12sp">
         </EditText>
 
 
@@ -92,15 +104,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Correo Electronico"
-            android:textColor="@color/colorPrimary2"
-            android:layout_marginLeft="40dp">
+            android:textColor="@color/negro"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="10sp">
         </TextView>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:background="@drawable/stylo_border"
+            android:textSize="12sp">
         </EditText>
 
 
@@ -108,15 +124,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/contrasenia"
-        android:textColor="@color/colorPrimary2"
-        android:layout_marginLeft="40dp">
+        android:textColor="@color/negro"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="10sp">
     </TextView>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:background="@drawable/stylo_border"
+            android:textSize="12sp">
         </EditText>
 
 
@@ -124,16 +144,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/repitacontrasenia"
-            android:textColor="@color/colorPrimary2"
+            android:textColor="@color/negro"
             android:layout_marginLeft="40dp"
-            android:src="@drawable/boder">
+            android:layout_marginRight="40dp"
+            android:textSize="10sp">
         </TextView>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp">
+            android:layout_marginRight="40dp"
+            android:background="@drawable/stylo_border"
+            android:textSize="12sp">
         </EditText>
 
 
@@ -149,9 +172,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="REGRESAR"
-                android:layout_marginTop="20dp">
-<!--                android:layout_marginRight="70dp"-->
-
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stylo_border">
             </Button>
 
 
@@ -161,9 +183,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ACEPTAR"
-                android:layout_marginTop="20dp">
-<!--                android:layout_marginLeft="60dp"-->
-
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stylo_border">
             </Button>
 
         </LinearLayout>
