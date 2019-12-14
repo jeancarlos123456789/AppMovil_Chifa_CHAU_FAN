@@ -19,10 +19,10 @@ public class ProductAdapter  extends ArrayAdapter<Products> {
 
     private class ViewHolder {
         //NetworkImageView image;
+        //TextView image;
         TextView name;
-        TextView price;
-        TextView description;
-        TextView category;
+        TextView cantidad;
+        //TextView category;
         ImageButton btnAddToBag;
 
         private ViewHolder() {
@@ -44,9 +44,11 @@ public class ProductAdapter  extends ArrayAdapter<Products> {
             holder = new ViewHolder();
 //            holder.image = (ImageView) convertView.findViewById(R.id.image);
            // holder.image = (NetworkImageView)convertView.findViewById(R.id.image);
+           // holder.image = (TextView) convertView.findViewById(R.id.imagen);
             holder.name = (TextView) convertView.findViewById(R.id.name);
+            holder.cantidad = (TextView) convertView.findViewById(R.id.cantidad);
             //holder.price = (TextView) convertView.findViewById(R.id.price);
-            holder.description = (TextView) convertView.findViewById(R.id.description);
+           // holder.description = (TextView) convertView.findViewById(R.id.description);
             //holder.category = (TextView) convertView.findViewById(R.id.category);
            // holder.btnAddToBag = (ImageButton) convertView.findViewById(R.id.btnAddToBag);
             convertView.setTag(holder);
@@ -54,9 +56,11 @@ public class ProductAdapter  extends ArrayAdapter<Products> {
             holder = (ViewHolder) convertView.getTag();
         }
 
+        //holder.image.setText(rowItem.imagen);
         holder.name.setText(rowItem.name);
+        holder.cantidad.setText(rowItem.cantidad);
         //holder.price.setText(rowItem.getPriceText());
-        holder.description.setText(rowItem.descripcion);
+       // holder.description.setText(rowItem.descripcion);
        // holder.category.setText(rowItem.getCategory());
 
       /*  if ( rowItem.getSmallImage() != null ) {

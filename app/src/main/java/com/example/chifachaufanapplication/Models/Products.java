@@ -3,12 +3,14 @@ package com.example.chifachaufanapplication.Models;
 import java.util.ArrayList;
 
 public class Products {
+   // public String imagen;
     public String name;
-    public String descripcion;
+    public String cantidad;
 
-    public Products(String _name, String _desc){
+    public Products(String _name, String _cant ){
         this.name = _name;
-        this.descripcion = _desc;
+        this.cantidad = _cant;
+
     }
 
     public String toString(){
@@ -19,12 +21,15 @@ public class Products {
     //datos eficticios
     public  static ArrayList<Products> getData(){
         ArrayList<Products> products = new ArrayList<>();
-        products.add(new Products("Galletas",
-        "Galletas deliciosas"));
-        products.add(new Products("Chocolate",
-                "Chocolate sublime"));
-        products.add(new Products("Caramelo",
-                "Caramelo de limon"));
+        products.add(new Products("Chaufa con piña", "1"));
+        products.add(new Products(
+                "Chaufa con Tipakay", "1"));
+        products.add(new Products("Chaufa con pollo",
+                "2"));
+
+        products.add(new Products("Tallarin saltado",
+                "1"));
+
         return products;
     }
 }

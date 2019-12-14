@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.chifachaufanapplication.Models.user;
 
@@ -34,10 +35,10 @@ public class LoginActivity extends AppCompatActivity {
                 if (user.passwordIsValid(txtUser.getText().toString(),
                         txtPassword.getText().toString())){
                     Intent o = new Intent(LoginActivity.this,
-                            MainActivity.class);
+                            ListProductActivity.class);
                     startActivity(o);
                 }else{
-
+                    Toast.makeText(getApplicationContext(),"Datos incorrectos",Toast.LENGTH_SHORT).show();
                 }
 
 
