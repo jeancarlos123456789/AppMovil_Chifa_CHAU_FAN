@@ -3,6 +3,7 @@ package com.example.chifachaufanapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +29,9 @@ public class ReportesPorFechasActivity extends AppCompatActivity {
 
     EditText txtFecha1;
     EditText txtFecha2;
+
+//    regresar
+    ImageButton btnRegresarFlecha;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +47,8 @@ public class ReportesPorFechasActivity extends AppCompatActivity {
         txtFecha2 = findViewById(R.id.txtFecha2);
         btnDate1 = (ImageButton) findViewById(R.id.btnDate1);
         btnDate2 = (ImageButton) findViewById(R.id.btnDate2);
+
+        btnRegresarFlecha = findViewById(R.id.imgbtnRegresarFlecha);
 
 
 //        Dato1===========================
@@ -65,6 +71,16 @@ public class ReportesPorFechasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showDatePicker();
+            }
+        });
+
+        // regresar
+        btnRegresarFlecha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent o = new Intent(ReportesPorFechasActivity.this,
+                        MenuInicioActivity.class);
+                startActivity(o);
             }
         });
 
@@ -106,4 +122,6 @@ public class ReportesPorFechasActivity extends AppCompatActivity {
         //Muestro el widget
         recogerFecha.show();
     }
+
+
 }
