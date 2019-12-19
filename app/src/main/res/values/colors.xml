@@ -4,7 +4,6 @@
     <color name="colorPrimary1">#0071bc</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-<<<<<<< HEAD
 
     // Color de registrarse
     <color name="colorPrimary2">#ECECEC</color>
@@ -13,8 +12,7 @@
     //Menu inicio
     <color name="negro">#000000</color>
 
-=======
     <color name="colorNegro">#000000</color>
     <color name="coloRojo">#cb3234</color>
->>>>>>> dev.v0
+
 </resources>
