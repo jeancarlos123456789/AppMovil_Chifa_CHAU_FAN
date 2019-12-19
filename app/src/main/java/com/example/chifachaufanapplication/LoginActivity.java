@@ -35,22 +35,22 @@ public class LoginActivity extends AppCompatActivity {
                 if (user.passwordIsValid(txtUser.getText().toString(),
                         txtPassword.getText().toString())){
                     Intent o = new Intent(LoginActivity.this,
-                            ListProductActivity.class);
+                            MenuInicioActivity.class);
                     startActivity(o);
                 }else{
                     Toast.makeText(getApplicationContext(),"Datos incorrectos",Toast.LENGTH_SHORT).show();
                 }
 
-                //dsfasdfsafafasfd
 
 
             }
         });
+
          btnRegistrar.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
                  Intent o = new Intent(LoginActivity.this,
-                         MainActivity.class);
+                         RegistrarseActivity.class);
                  startActivity(o);
              }
          });

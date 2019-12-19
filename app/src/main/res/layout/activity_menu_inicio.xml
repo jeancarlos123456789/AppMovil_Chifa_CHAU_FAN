@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            //REPORTES
+<!--            REPORTES-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,6 +62,7 @@
 
 
                 <ImageButton
+                    android:id="@+id/btnReportes"
                     android:layout_width="130dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
@@ -84,7 +85,7 @@
             </LinearLayout>
 
 
-            //ESTADO DE RESERVA
+            <!--SEGUNDA FILA-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -92,6 +93,7 @@
 
 
                 <ImageButton
+                    android:id="@+id/btnEstadoReserva"
                     android:layout_width="130dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
@@ -132,6 +134,7 @@
 
 
                 <ImageButton
+                    android:id="@+id/btnCarta"
                     android:layout_width="130dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"

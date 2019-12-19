@@ -22,7 +22,7 @@ public class user {
         ArrayList<user> list = new ArrayList<user>();
         user o = new user();
         o.username = "chifachaufan@gmail.com";
-        o.password = "Chifachaufan2019";
+        o.password = "Chifa.chaufan2019";
         list.add(o);
 
         user t = new user();
